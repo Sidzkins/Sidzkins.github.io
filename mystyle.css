@@ -109,15 +109,25 @@ top: 650px;
   -webkit-column-count: 3;
   -moz-column-count: 3;
   column-count: 3;
-  -webkit-column-gap: 40px;
-  -moz-column-gap: 40px;
-  column-gap: 40px;
+  -webkit-column-gap: 15px;
+  -moz-column-gap: 15px;
+  column-gap: 15px;
 }
 #gradient_background{
   height: auto;
+  width: auto;
   background: #0000FF;
   background: -webkit-linear-gradient(180deg, #0000FF, #1E90FF);
   background: -o-linear-gradient(180deg, #0000FF, #1E90FF);
   background: -moz-linear-gradient(180deg, #0000FF, #1E90FF);
   background: linear-gradient(180deg, #0000FF, #1E90FF);
+}
+.img_size{
+  height: 300px;
+  width: 448px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+#top{
+  margin-top: 20px;
 }
