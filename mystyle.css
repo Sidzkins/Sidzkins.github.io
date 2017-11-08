@@ -2,16 +2,18 @@
 /* CSS Document */
 .MainContainer{
   width: 100%;
-  height: auto;
+  height: 100%;
+  background-color: beige;
+  z-index: -1;
 }
 header{
-  height: 210px;
+  height: 150px;
   width: 100%;
 }
 #Header_image{
   position: absolute;
   left: 45%;
-  height: 200px;
+  height: 150px;
 }
 footer{
   position: fixed;
@@ -28,7 +30,7 @@ ul{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #DAA520;
+  background-color: #B31400;
 }
 li{
   float: left;
@@ -41,11 +43,11 @@ li a {
   text-decoration: none;
 }
 li a:hover {
-    background-color: #F0E68C;
+    background-color: #FF5050;
     color: black;
 }
 .active {
-    background-color: #FFD700;
+    background-color: #FF3300;
     color:black;
 }
 .Sec1{
@@ -82,15 +84,24 @@ top: 650px;
   margin-left: 30px;
   font-size: 24px;
 }
+.coll_box{
+  width: 100%;
+  height:800px;
+  background-color: #F5F5DC;
+  left: 400px;
+}
 #prof_img{
   width: 500px;
   height: 200px;
+  margin-left: 50px;
 }
 .Bio{
   width: 600px;
   position: fixed;
   left: 400px;
   background-color: #F5F5DC;
+  height: 80%;*/
+
 }
 
 .Two_coll{
@@ -118,11 +129,11 @@ top: 650px;
 #gradient_background{
   height: auto;
   width: auto;
-  background: #0000FF;
-  background: -webkit-linear-gradient(180deg, #0000FF, #1E90FF);
-  background: -o-linear-gradient(180deg, #0000FF, #1E90FF);
-  background: -moz-linear-gradient(180deg, #0000FF, #1E90FF);
-  background: linear-gradient(180deg, #0000FF, #1E90FF);
+  background: #FFFFB8;
+  background: -webkit-linear-gradient(180deg, #FFFFB8, #FFFFDB);
+  background: -o-linear-gradient(180deg, #FFFFB8, #FFFFDB);
+  background: -moz-linear-gradient(180deg, #FFFFB8, #FFFFDB);
+  background: linear-gradient(180deg, #FFFFB8, #FFFFDB);
 }
 .img_size{
   height: 300px;
@@ -142,6 +153,7 @@ top: 650px;
 #index{
   position: relative;
   width: 300px;
+  z-index: 1000;
 }
 #marks{
   font-size: 20px;
@@ -149,7 +161,8 @@ top: 650px;
 .inedx{
   position: absolute;
   right: 50px;
-  z-index: -1;
+  z-index:60%;
+
 }
 #top_pic{
   position: absolute;
@@ -161,13 +174,6 @@ top: 650px;
 #mid_pic{
   position: absolute;
   top: 850px;
-  margin-left: 20px;
-  font-size: 20px;
-  color: white;
-}
-#bot_pic{
-  position: absolute;
-  top: 1160px;
   margin-left: 20px;
   font-size: 20px;
   color: white;
